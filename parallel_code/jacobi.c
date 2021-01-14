@@ -15,7 +15,7 @@ void jacobi(double*** u, double***prev_u, double*** f, int N, int iter_max, doub
 
 	tolerance = tolerance * tolerance;
 
-	# pragma omp parallel shared(u, prev_u, swap, f, N, iter_max, tolerance, step_width, denominator, iter, realnorm) private(i,j,k,temp, temp2, t_id) 
+	# pragma omp parallel shared(u, prev_u, swap, f, N, iter_max, tolerance, step_width, denominator, iter, realnorm) private(i,j,k,temp, temp2, t_id)
 	{
 		while (realnorm > tolerance && iter<iter_max) {
 			# pragma omp barrier
@@ -47,7 +47,7 @@ void jacobi(double*** u, double***prev_u, double*** f, int N, int iter_max, doub
 					}
 				}
 			}
-			printf("2. %f, %d. Thread no.: %d\n", realnorm, iter, t_id);
+			// printf("2. %f, %d. Thread no.: %d\n", realnorm, iter, t_id);
 		}
 	} // end of parallel region
 	printf("Tolerance: %.2f/%.2f. Iterations: %d/%d\n", sqrt(realnorm), sqrt(tolerance), iter, iter_max);
