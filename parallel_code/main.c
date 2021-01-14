@@ -22,8 +22,8 @@ assign_ufu_old(double*** u, double*** f, double*** u_old, int N, double start_T)
 	for (i=0; i<N; i++){
 		for (j=0;j<N;j++){
 			for (k=0; k<N; k++){
-				u[i][j][k]=start_T;
 				u_old[i][j][k]=start_T;
+				u[i][j][k]=start_T;
 				f[i][j][k]=0;
 			}
 		}
@@ -33,18 +33,21 @@ assign_ufu_old(double*** u, double*** f, double*** u_old, int N, double start_T)
 	for(i=0;i<N;i++){
 		for(j=0;j<N;j++){
 		
-			u[i][N-1][j]=20.;
+			u_old[i][0][j] = 0.;
 			u_old[i][N-1][j]=20.;
-
-			u[i][j][0]=20.;
-			u[i][j][N-1]=20.;
+			u[i][0][j] = 0.;
+			u[i][N-1][j]=20.;
+			
+			
 			u_old[i][j][0]=20.;
 			u_old[i][j][N-1]=20.;
+			u[i][j][0]=20.;
+			u[i][j][N-1]=20.;
 
+			u_old[0][i][j]=20.;
+            u_old[N-1][i][j]=20.;
 			u[0][i][j]=20.;
             u[N-1][i][j]=20.;
-            u_old[0][i][j]=20.;
-            u_old[N-1][i][j]=20.;
 		}
 	}
 	int radxi = 0,
@@ -66,8 +69,7 @@ assign_ufu_old(double*** u, double*** f, double*** u_old, int N, double start_T)
     }
 }
 
-void
-assign_uf(double*** u, double*** f, int N, double start_T){
+void assign_uf(double*** u, double*** f, int N, double start_T){
 	int i,j,k;
 	for (i=0; i<N; i++){
 		for (j=0;j<N;j++){
@@ -166,7 +168,6 @@ main(int argc, char *argv[]) {
 	printf("We are going to start the Gauss-Seidel-Iteration \n");
 	assign_uf(u,f,N, start_T);
 	gauss_seidel(u,f, N,iter_max, tolerance);
-	print_matrix(u,N);
 	#endif
 	#if _JACOBI
 	printf("We are going to start the Jacobi-Iteration \n");
@@ -177,7 +178,6 @@ main(int argc, char *argv[]) {
     }
 	assign_ufu_old(u,f,u_old,N, start_T);
 	jacobi(u,u_old,f,N, iter_max,tolerance);
-	print_matrix(u,N);
 	#endif
 	
     /*
@@ -194,6 +194,8 @@ main(int argc, char *argv[]) {
 	case 0:
 	    // no output at all
 	    break;
+	case 2:
+		print_matrix(u,N);
 	case 3:
 	    output_ext = ".bin";
 	    sprintf(output_filename, "%s_%d%s", output_prefix, N, output_ext);
