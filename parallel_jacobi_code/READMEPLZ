@@ -1,0 +1,16 @@
+Hallo
+
+1.  Shittiest implementation of them all. It's calling the parallel version inside the while + using the atomic for the norm
+    Maybe you cannot even run this for large matrices and/or large number of threads because it's just so bad.
+    Don't mind if you can't use it at all
+
+2.  We took the parallel declaration out of the while loop. It's better but we still ahve the atomic thing. Also bad as the last one,
+    but it should kind of work for your analysis.
+
+3.  In this one we're finally using the reduction clause instead of the atomic. It improves A LOT the performance.
+    For smaller values of N and threads it's maybe even better than the 4th one. But when you crank up the numbers HIGHHH (YOLO)
+    it should be a little worse.
+
+4.  NUMA NUMA YE NUMA NUMA NUMA YE. That's it, we happy :3
+
+(Don't tell anyone, but for some reason the numbers we are getting in the u matrix are a liiiiitle bit different from the serial implementation)
