@@ -33,7 +33,9 @@ assign_ufu_old(double*** u, double*** f, double*** u_old, int N, double start_T)
 	for(i=0;i<N;i++){
 		for(j=0;j<N;j++){
 		
+			u[i][0][j]=0.;
 			u[i][N-1][j]=20.;
+			u_old[i][0][j]=0;
 			u_old[i][N-1][j]=20.;
 
 			u[i][j][0]=20.;
@@ -82,6 +84,7 @@ assign_uf(double*** u, double*** f, int N, double start_T){
 	for(i=0;i<N;i++){
 		for(j=0;j<N;j++){
 		
+			u[i][0][j]=0.;
 			u[i][N-1][j]=20.;
 
 			u[i][j][0]=20.;
@@ -177,18 +180,9 @@ main(int argc, char *argv[]) {
     }
 	assign_ufu_old(u,f,u_old,N, start_T);
 	jacobi(u,u_old,f,N, iter_max,tolerance);
-	print_matrix(u,N);
+	//print_matrix(u,N);
 	#endif
 	
-    /*
-     * first: set boundaries of u to desired values, rest to 0
-     * call function
-     *
-     * fill in your code here 
-     *
-     *
-     */
-	//while(norm < tolerance
     // dump  results if wanted 
     switch(output_type) {
 	case 0:

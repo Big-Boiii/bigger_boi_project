@@ -1,0 +1,92 @@
+50
+Tolerance is 0.500000 
+Size of matrix 50 
+We are going to start the Jacobi-Iteration 
+X: 0 - 15. Y: 0 - 12. Z: 9 - 25
+We needed 1395 iterations to converge
+real	0m0.558s
+user	0m0.549s
+sys	0m0.001s
+
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
+100
+Tolerance is 0.500000 
+Size of matrix 100 
+We are going to start the Jacobi-Iteration 
+X: 0 - 31. Y: 0 - 25. Z: 17 - 50
+We needed 4997 iterations to converge
+real	0m21.426s
+user	0m21.284s
+sys	0m0.015s
+
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
+150
+Tolerance is 0.500000 
+Size of matrix 150 
+We are going to start the Jacobi-Iteration 
+X: 0 - 46. Y: 0 - 37. Z: 25 - 75
+We needed 10000 iterations to converge
+real	2m46.593s
+user	2m45.742s
+sys	0m0.031s
+
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
+200
+Tolerance is 0.500000 
+Size of matrix 200 
+We are going to start the Jacobi-Iteration 
+X: 0 - 62. Y: 0 - 50. Z: 34 - 100
+We needed 10000 iterations to converge
+real	6m53.052s
+user	6m51.241s
+sys	0m0.065s
+
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
+250
+User defined signal 2
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@n-62-11-66>
+Subject: Job 9097424: <NONAME> in cluster <dcc> Exited
+
+Job <NONAME> was submitted from host <n-62-30-5> by user <s202382> in cluster <dcc> at Thu Jan 14 14:35:23 2021
+Job was executed on host(s) <n-62-11-66>, in queue <hpc>, as user <s202382> in cluster <dcc> at Thu Jan 14 14:35:27 2021
+</zhome/51/5/153768> was used as the home directory.
+</zhome/51/5/153768/final_code> was used as the working directory.
+Started at Thu Jan 14 14:35:27 2021
+Terminated at Thu Jan 14 14:50:34 2021
+Results reported at Thu Jan 14 14:50:34 2021
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+jacobi_sizes.sh
+------------------------------------------------------------
+
+TERM_RUNLIMIT: job killed after reaching LSF run time limit.
+Exited with exit code 140.
+
+Resource usage summary:
+
+    CPU time :                                   903.00 sec.
+    Max Memory :                                 361 MB
+    Average Memory :                             257.18 MB
+    Total Requested Memory :                     1024.00 MB
+    Delta Memory :                               663.00 MB
+    Max Swap :                                   -
+    Max Processes :                              4
+    Max Threads :                                5
+    Run time :                                   927 sec.
+    Turnaround time :                            911 sec.
+
+The output (if any) is above this job summary.
+

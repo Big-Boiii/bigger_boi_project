@@ -1,0 +1,131 @@
+50
+Tolerance is 1.000000 
+Size of matrix 50 
+We are going to start the Jacobi-Iteration 
+X: 0 - 15. Y: 0 - 12. Z: 9 - 25
+We needed 1058 iterations to converge
+real	0m0.472s
+user	0m0.462s
+sys	0m0.004s
+
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
+75
+Tolerance is 1.000000 
+Size of matrix 75 
+We are going to start the Jacobi-Iteration 
+X: 0 - 23. Y: 0 - 18. Z: 13 - 37
+We needed 2183 iterations to converge
+real	0m3.404s
+user	0m3.364s
+sys	0m0.010s
+
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
+100
+Tolerance is 1.000000 
+Size of matrix 100 
+We are going to start the Jacobi-Iteration 
+X: 0 - 31. Y: 0 - 25. Z: 17 - 50
+We needed 3623 iterations to converge
+real	0m14.085s
+user	0m13.939s
+sys	0m0.020s
+
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
+125
+Tolerance is 1.000000 
+Size of matrix 125 
+We are going to start the Jacobi-Iteration 
+X: 0 - 39. Y: 0 - 31. Z: 21 - 62
+We needed 5331 iterations to converge
+real	0m45.648s
+user	0m45.192s
+sys	0m0.021s
+
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
+150
+Tolerance is 1.000000 
+Size of matrix 150 
+We are going to start the Jacobi-Iteration 
+X: 0 - 46. Y: 0 - 37. Z: 25 - 75
+We needed 7283 iterations to converge
+real	1m54.032s
+user	1m53.075s
+sys	0m0.043s
+
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
+175
+Tolerance is 1.000000 
+Size of matrix 175 
+We are going to start the Jacobi-Iteration 
+X: 0 - 54. Y: 0 - 43. Z: 30 - 87
+We needed 9456 iterations to converge
+real	4m12.748s
+user	4m11.009s
+sys	0m0.047s
+
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
+200
+Tolerance is 1.000000 
+Size of matrix 200 
+We are going to start the Jacobi-Iteration 
+X: 0 - 62. Y: 0 - 50. Z: 34 - 100
+We needed 11843 iterations to converge
+real	7m37.245s
+user	7m35.735s
+sys	0m0.077s
+
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
+225
+User defined signal 2
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@n-62-31-24>
+Subject: Job 9097595: <NONAME> in cluster <dcc> Exited
+
+Job <NONAME> was submitted from host <n-62-30-5> by user <s202382> in cluster <dcc> at Thu Jan 14 15:01:51 2021
+Job was executed on host(s) <n-62-31-24>, in queue <hpc>, as user <s202382> in cluster <dcc> at Thu Jan 14 15:01:53 2021
+</zhome/51/5/153768> was used as the home directory.
+</zhome/51/5/153768/final_code> was used as the working directory.
+Started at Thu Jan 14 15:01:53 2021
+Terminated at Thu Jan 14 15:17:34 2021
+Results reported at Thu Jan 14 15:17:34 2021
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+jacobi_sizes.sh
+------------------------------------------------------------
+
+TERM_RUNLIMIT: job killed after reaching LSF run time limit.
+Exited with exit code 140.
+
+Resource usage summary:
+
+    CPU time :                                   936.00 sec.
+    Max Memory :                                 264 MB
+    Average Memory :                             179.00 MB
+    Total Requested Memory :                     1024.00 MB
+    Delta Memory :                               760.00 MB
+    Max Swap :                                   -
+    Max Processes :                              4
+    Max Threads :                                5
+    Run time :                                   990 sec.
+    Turnaround time :                            943 sec.
+
+The output (if any) is above this job summary.
+

@@ -1,0 +1,10 @@
+### Start Thu Jan 14 15:15:47 2021
+# /opt/oracle/developerstudio12.6/bin/../bin/er_archive -n -O /zhome/51/5/153768/final_code/test.9.er/er_archive.log /zhome/51/5/153768/final_code/test.9.er
+Copying `/zhome/51/5/153768/final_code/poisson_j'  to `/zhome/51/5/153768/final_code/test.9.er/archives/poisson_j_0kwDEjT0dSd'
+Copying `/usr/lib64/librt-2.17.so'  to `/zhome/51/5/153768/final_code/test.9.er/archives/librt-2.17.so_OCEC1bthLm2'
+Copying `/usr/lib64/libpthread-2.17.so'  to `/zhome/51/5/153768/final_code/test.9.er/archives/libpthread-2.17.so_OCEC1bthLm2'
+Copying `/usr/lib64/libdl-2.17.so'  to `/zhome/51/5/153768/final_code/test.9.er/archives/libdl-2.17.so_OCEC1bthLm2'
+Copying `/usr/lib64/libc-2.17.so'  to `/zhome/51/5/153768/final_code/test.9.er/archives/libc-2.17.so_OCEC1bthLm2'
+Copying `/usr/lib64/libm-2.17.so'  to `/zhome/51/5/153768/final_code/test.9.er/archives/libm-2.17.so_OCEC1bthLm2'
+Copying `/opt/oracle/developerstudio12.6/lib/analyzer/amd64/runtime/libcollector.so'  to `/zhome/51/5/153768/final_code/test.9.er/archives/libcollector.so_-C8vWEvanQd'
+Copying `/usr/lib64/ld-2.17.so'  to `/zhome/51/5/153768/final_code/test.9.er/archives/ld-2.17.so_OCEC1bthLm2'
