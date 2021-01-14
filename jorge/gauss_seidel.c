@@ -63,10 +63,11 @@ void gauss_seidel(double ***u, double ***u_old, double ***f, int N, int iter_max
         norm = get_norm(u, u_old, N);
         iter_no += 1;
     }
-    if (norm <= tolerance) {
-        printf("The tolerance has been reached. Norm: %.2f/%.2f\n", norm, tolerance);
-    }
-    if (iter_no >= iter_max) {
-        printf("Max number of iterations reached! %d/%d\n", iter_no, iter_max);
-    }
+    // if (norm <= tolerance) {
+    //     printf("The tolerance has been reached. Norm: %.2f/%.2f\n", norm, tolerance);
+    // }
+    // if (iter_no >= iter_max) {
+    //     printf("Max number of iterations reached! %d/%d\n", iter_no, iter_max);
+    // }
+    printf("Tolerance reached: %.2f/%.2f. Iterations needed: %d/%d.\n", norm, tolerance, iter_no, iter_max);
 }

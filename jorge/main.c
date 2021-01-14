@@ -17,8 +17,7 @@
 
 #define N_DEFAULT 100
 
-int
-main(int argc, char *argv[]) {
+int main(int argc, char *argv[]) {
     int     i, j, k;
     int 	N = N_DEFAULT;
     int 	iter_max = 1000;
@@ -78,9 +77,10 @@ main(int argc, char *argv[]) {
 	    break;
 	case 2:
         for(i = 0; i < N; i++){
+            printf("%dth slice\n", i);
             for(j = 0; j < N; j++){
                 for (k = 0; k < N; k++) {
-                    printf("%.2f \t\t", f[i][j][k]); 
+                    printf("%.2f \t\t", u[i][j][k]);
                 }
                 printf("\n");
             }
@@ -106,6 +106,8 @@ main(int argc, char *argv[]) {
 
     // de-allocate memory
     free(u);
+    free(u_old);
+    free(f);
 
     return(0);
 }

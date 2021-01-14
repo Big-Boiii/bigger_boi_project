@@ -41,41 +41,42 @@ void initialize_u(double ***u, int N, double start_T) {
         }
     }
 
-    // // We set the walls x=-1 and x=1
-    // for(j = 0; j < N; j++) {
-    //     for (k = 0; k < N; k++) {
-    //         u[0][j][k] = 20;
-    //         u[N-1][j][k] = 20;
-    //     }
-    // }
+    // We set the walls x=-1 and x=1
+    for(j = 0; j < N; j++) {
+        for (k = 0; k < N; k++) {
+            u[0][j][k] = 20;
+            u[N-1][j][k] = 20;
+        }
+    }
 
-    // // We set the walls y=-1 y=1
-    // for (i = 0; i < N; i++){
-    //     for (k = 0; k < N; k++){
-    //         u[i][0][k] = 0;
-    //         u[i][N-1][k] = 20;
-    //     }
-    // }
+    // We set the walls y=-1 y=1
+    for (i = 1; i < N-1; i++){
+        for (k = 0; k < N; k++){
+            u[i][0][k] = 0;
+            u[i][N-1][k] = 20;
+        }
+    }
 
-    // // Lastly, the walls z=-1 and z=1
-    // for (i = 0; i < N; i++) {
-    //     for (j = 0; j < N; j++) {
-    //         u[i][j][0] = 20;
-    //         u[i][j][N-1] = 20;
-    //     }
-    // }
-
+    // Lastly, the walls z=-1 and z=1
     for (i = 0; i < N; i++) {
         for (j = 0; j < N; j++) {
-            u[0][i][j] = 20;
-            u[N-1][i][j] = 20;
-
-            u[i][0][j] = 0;
-            u[i][N-1][j] = 20;
-
             u[i][j][0] = 20;
             u[i][j][N-1] = 20;
         }
     }
+
+    // for (i = 0; i < N; i++) {
+    //     for (j = 0; j < N; j++) {
+            
+    //         u[i][0][j] = 0;
+    //         u[i][N-1][j] = 20;
+
+    //         u[0][i][j] = 20;
+    //         u[N-1][i][j] = 20;
+
+    //         u[i][j][0] = 20;
+    //         u[i][j][N-1] = 20;
+    //     }
+    // }
 
 }
