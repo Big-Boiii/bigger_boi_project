@@ -16,13 +16,13 @@ double iteration_step(double*** u, double*** f, int N){
 			for (k=1; k<N-1; k++){
 				double placeholder=u[i][j][k];
 				double temp=u[i-1][j][k] + u[i+1][j][k]+ u[i][j-1][k] + u[i][j+1][k] + u[i][j][k-1] + u[i][j][k+1] + step_width*step_width*f[i][j][k];
-				u[i][j][k]=temp * 0.5*step_width;
+				u[i][j][k]=temp/(double)6;
 				placeholder-=u[i][j][k];
 				squarednorm+=placeholder*placeholder;
 			}
 		}
 	}
-	return squarednorm;
+	return sqrt(squarednorm);
 }
 
 

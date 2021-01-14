@@ -39,10 +39,10 @@ void assign_f(double*** f, int N){
 	for (i=0; i<N; i++){
 		for(j=0; j<N; j++){
 			for(k=0; k<N; k++){	
-				double x=-1+i/(double)N;
-				double y=-1+j/(double)N;
-				double z= -1+k/(double)N;	
-				if (x<= -3.0/8.0 && y<=-0.5 && z<=-2.0/3.0 && z<=0){
+				double z=-1+i*2/(double)N;
+				double y=-1+j*2/(double)N;
+				double x=-1+k*2/(double)N;
+				if (x<= -3.0/8.0 && y<=-0.5 && z>=-2.0/3.0 && z<=0){
 				f[i][j][k]=200;}
 				else f[i][j][k]=0;
 			}
@@ -114,13 +114,15 @@ main(int argc, char *argv[]) {
 	//assign f and prev_u --> only initialize prev_u
 	//initialze u with 0 to create first touch for NUMA
 	#if _GAUSS_SEIDEL
-	printf("We are now doing a Gauss-Seidel Magic Trick");
+	printf("We are now doing a Gauss-Seidel Magic Trick \n");
 	double* norm =&tolerance;
 	gauss_seidel(u,f, N,iter_max, tolerance);
 	print_matrix(u,N);
 	#endif
 	#if _JACOBI
-	printf("We are going to perform a magic Jacobi Trick");
+	printf("We are going to perform a magic Jacobi Trick \n");
+	print_matrix(f,N);
+	printf("\n");
 	//only allocate prev_u here:
 	double*** prev_u=d_malloc_3d(N,N,N);
 	assign_u(prev_u,N);

@@ -17,29 +17,30 @@ void print_matrix2(double*** A, int N){
 }
 double iteration_step(double*** prev_u, double*** u, double*** f,int N){
 	double squarednorm=0.0;
-	double placeholder=0.0;
 	double step_width=2./(double)N;
+	double temp, temp2;
+	double denominator = 1.0/(double)6;
 	int i,j,k;
 	for (i=1; i<N-1; i++){
 		for (j=1; j<N-1; j++){
 			for (k=1; k<N-1; k++){
 //				prev_u[i][j][k]=u[i][j][k];
-				double temp=prev_u[i-1][j][k] + prev_u[i+1][j][k]+ prev_u[i][j-1][k] + prev_u[i][j+1][k] + prev_u[i][j][k-1] + prev_u[i][j][k+1] + step_width*step_width*f[i][j][k];
-				u[i][j][k]=temp * 0.5*step_width;   
+				temp=prev_u[i-1][j][k] + prev_u[i+1][j][k]+ prev_u[i][j-1][k] + prev_u[i][j+1][k] + prev_u[i][j][k-1] + prev_u[i][j][k+1] + step_width*step_width*f[i][j][k];
+				u[i][j][k]=temp*denominator;   
 			}
 		}
 	}
 	for (i=0; i<N; i++){
 		for(j=0; j<N; j++){
 			for(k=0; k<N; k++){	
-				double temp2= u[i][j][k]-prev_u[i][j][k];
+				temp2= u[i][j][k]-prev_u[i][j][k];
 				squarednorm+=temp2*temp2;
 				prev_u[i][j][k]=u[i][j][k];
 			}
 		}
 	}
 	
-	return squarednorm;
+	return sqrt(squarednorm);
 }
 
 
