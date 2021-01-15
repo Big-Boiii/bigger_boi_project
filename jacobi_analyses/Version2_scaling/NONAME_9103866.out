@@ -1,0 +1,404 @@
+Size 50
+Threads 1
+Tolerance is 5.000000 
+Size of matrix 50 
+We are going to start the Jacobi-Iteration 
+X: 0 - 15. Y: 0 - 12. Z: 9 - 25
+Tolerance: 4.99/5.00. Iterations: 316/1500
+
+real	0m1.308s
+user	0m1.299s
+sys	0m0.006s
+Size 75
+Threads 1
+Tolerance is 5.000000 
+Size of matrix 75 
+We are going to start the Jacobi-Iteration 
+X: 0 - 23. Y: 0 - 18. Z: 13 - 37
+Tolerance: 4.99/5.00. Iterations: 568/1500
+
+real	0m8.261s
+user	0m8.248s
+sys	0m0.010s
+Size 50
+Threads 2
+Tolerance is 5.000000 
+Size of matrix 50 
+We are going to start the Jacobi-Iteration 
+X: 0 - 15. Y: 0 - 12. Z: 9 - 25
+Tolerance: 4.99/5.00. Iterations: 316/1500
+
+real	0m5.418s
+user	0m10.297s
+sys	0m0.011s
+Size 75
+Threads 2
+Tolerance is 5.000000 
+Size of matrix 75 
+We are going to start the Jacobi-Iteration 
+X: 0 - 23. Y: 0 - 18. Z: 13 - 37
+Tolerance: 4.99/5.00. Iterations: 568/1500
+
+real	0m32.533s
+user	1m1.876s
+sys	0m0.018s
+Size 50
+Threads 3
+Tolerance is 5.000000 
+Size of matrix 50 
+We are going to start the Jacobi-Iteration 
+X: 0 - 15. Y: 0 - 12. Z: 9 - 25
+Tolerance: 4.99/5.00. Iterations: 316/1500
+
+real	0m8.313s
+user	0m23.357s
+sys	0m0.016s
+Size 75
+Threads 3
+Tolerance is 5.000000 
+Size of matrix 75 
+We are going to start the Jacobi-Iteration 
+X: 0 - 23. Y: 0 - 18. Z: 13 - 37
+Tolerance: 4.99/5.00. Iterations: 568/1500
+
+real	0m56.983s
+user	2m44.831s
+sys	0m0.055s
+Size 50
+Threads 4
+Tolerance is 5.000000 
+Size of matrix 50 
+We are going to start the Jacobi-Iteration 
+X: 0 - 15. Y: 0 - 12. Z: 9 - 25
+Tolerance: 4.99/5.00. Iterations: 316/1500
+
+real	0m10.026s
+user	0m36.489s
+sys	0m0.025s
+Size 75
+Threads 4
+Tolerance is 5.000000 
+Size of matrix 75 
+We are going to start the Jacobi-Iteration 
+X: 0 - 23. Y: 0 - 18. Z: 13 - 37
+Tolerance: 4.99/5.00. Iterations: 568/1500
+
+real	1m0.996s
+user	3m44.373s
+sys	0m0.099s
+Size 50
+Threads 5
+Tolerance is 5.000000 
+Size of matrix 50 
+We are going to start the Jacobi-Iteration 
+X: 0 - 15. Y: 0 - 12. Z: 9 - 25
+Tolerance: 4.99/5.00. Iterations: 316/1500
+
+real	0m9.863s
+user	0m44.673s
+sys	0m0.021s
+Size 75
+Threads 5
+Tolerance is 5.000000 
+Size of matrix 75 
+We are going to start the Jacobi-Iteration 
+X: 0 - 23. Y: 0 - 18. Z: 13 - 37
+Tolerance: 4.99/5.00. Iterations: 568/1500
+
+real	1m7.209s
+user	5m1.250s
+sys	0m0.082s
+Size 50
+Threads 6
+Tolerance is 5.000000 
+Size of matrix 50 
+We are going to start the Jacobi-Iteration 
+X: 0 - 15. Y: 0 - 12. Z: 9 - 25
+Tolerance: 4.99/5.00. Iterations: 316/1500
+
+real	0m11.482s
+user	1m4.239s
+sys	0m0.030s
+Size 75
+Threads 6
+Tolerance is 5.000000 
+Size of matrix 75 
+We are going to start the Jacobi-Iteration 
+X: 0 - 23. Y: 0 - 18. Z: 13 - 37
+Tolerance: 4.99/5.00. Iterations: 568/1500
+
+real	1m16.106s
+user	7m4.050s
+sys	0m0.088s
+Size 50
+Threads 7
+Tolerance is 5.000000 
+Size of matrix 50 
+We are going to start the Jacobi-Iteration 
+X: 0 - 15. Y: 0 - 12. Z: 9 - 25
+Tolerance: 4.99/5.00. Iterations: 316/1500
+
+real	0m12.311s
+user	1m16.792s
+sys	0m0.037s
+Size 75
+Threads 7
+Tolerance is 5.000000 
+Size of matrix 75 
+We are going to start the Jacobi-Iteration 
+X: 0 - 23. Y: 0 - 18. Z: 13 - 37
+Tolerance: 4.99/5.00. Iterations: 568/1500
+
+real	1m11.885s
+user	7m27.088s
+sys	0m0.121s
+Size 50
+Threads 8
+Tolerance is 5.000000 
+Size of matrix 50 
+We are going to start the Jacobi-Iteration 
+X: 0 - 15. Y: 0 - 12. Z: 9 - 25
+Tolerance: 4.99/5.00. Iterations: 316/1500
+
+real	0m13.104s
+user	1m33.541s
+sys	0m0.046s
+Size 75
+Threads 8
+Tolerance is 5.000000 
+Size of matrix 75 
+We are going to start the Jacobi-Iteration 
+X: 0 - 23. Y: 0 - 18. Z: 13 - 37
+Tolerance: 4.99/5.00. Iterations: 568/1500
+
+real	1m16.139s
+user	9m7.855s
+sys	0m0.119s
+Size 50
+Threads 9
+Tolerance is 5.000000 
+Size of matrix 50 
+We are going to start the Jacobi-Iteration 
+X: 0 - 15. Y: 0 - 12. Z: 9 - 25
+Tolerance: 4.99/5.00. Iterations: 316/1500
+
+real	0m13.451s
+user	1m46.321s
+sys	0m0.048s
+Size 75
+Threads 9
+Tolerance is 5.000000 
+Size of matrix 75 
+We are going to start the Jacobi-Iteration 
+X: 0 - 23. Y: 0 - 18. Z: 13 - 37
+Tolerance: 4.99/5.00. Iterations: 568/1500
+
+real	1m20.601s
+user	10m55.079s
+sys	0m0.126s
+Size 50
+Threads 10
+Tolerance is 5.000000 
+Size of matrix 50 
+We are going to start the Jacobi-Iteration 
+X: 0 - 15. Y: 0 - 12. Z: 9 - 25
+Tolerance: 4.99/5.00. Iterations: 316/1500
+
+real	0m13.580s
+user	2m1.064s
+sys	0m0.062s
+Size 75
+Threads 10
+Tolerance is 5.000000 
+Size of matrix 75 
+We are going to start the Jacobi-Iteration 
+X: 0 - 23. Y: 0 - 18. Z: 13 - 37
+Tolerance: 4.99/5.00. Iterations: 568/1500
+
+real	1m15.859s
+user	10m44.634s
+sys	0m0.113s
+Size 50
+Threads 11
+Tolerance is 5.000000 
+Size of matrix 50 
+We are going to start the Jacobi-Iteration 
+X: 0 - 15. Y: 0 - 12. Z: 9 - 25
+Tolerance: 4.99/5.00. Iterations: 316/1500
+
+real	0m14.099s
+user	2m18.858s
+sys	0m0.057s
+Size 75
+Threads 11
+Tolerance is 5.000000 
+Size of matrix 75 
+We are going to start the Jacobi-Iteration 
+X: 0 - 23. Y: 0 - 18. Z: 13 - 37
+Tolerance: 4.99/5.00. Iterations: 568/1500
+
+real	1m25.113s
+user	13m36.363s
+sys	0m0.132s
+Size 50
+Threads 12
+Tolerance is 5.000000 
+Size of matrix 50 
+We are going to start the Jacobi-Iteration 
+X: 0 - 15. Y: 0 - 12. Z: 9 - 25
+Tolerance: 4.99/5.00. Iterations: 316/1500
+
+real	0m14.951s
+user	2m43.627s
+sys	0m0.044s
+Size 75
+Threads 12
+Tolerance is 5.000000 
+Size of matrix 75 
+We are going to start the Jacobi-Iteration 
+X: 0 - 23. Y: 0 - 18. Z: 13 - 37
+Tolerance: 4.99/5.00. Iterations: 568/1500
+
+real	1m28.591s
+user	15m33.913s
+sys	0m0.164s
+Size 50
+Threads 13
+Tolerance is 5.000000 
+Size of matrix 50 
+We are going to start the Jacobi-Iteration 
+X: 0 - 15. Y: 0 - 12. Z: 9 - 25
+Tolerance: 4.99/5.00. Iterations: 316/1500
+
+real	0m14.290s
+user	2m37.755s
+sys	0m0.078s
+Size 75
+Threads 13
+Tolerance is 5.000000 
+Size of matrix 75 
+We are going to start the Jacobi-Iteration 
+X: 0 - 23. Y: 0 - 18. Z: 13 - 37
+Tolerance: 4.99/5.00. Iterations: 568/1500
+
+real	1m44.576s
+user	20m33.892s
+sys	0m0.147s
+Size 50
+Threads 14
+Tolerance is 5.000000 
+Size of matrix 50 
+We are going to start the Jacobi-Iteration 
+X: 0 - 15. Y: 0 - 12. Z: 9 - 25
+Tolerance: 4.99/5.00. Iterations: 316/1500
+
+real	0m15.850s
+user	3m15.982s
+sys	0m0.074s
+Size 75
+Threads 14
+Tolerance is 5.000000 
+Size of matrix 75 
+We are going to start the Jacobi-Iteration 
+X: 0 - 23. Y: 0 - 18. Z: 13 - 37
+Tolerance: 4.99/5.00. Iterations: 568/1500
+
+real	1m39.631s
+user	20m49.458s
+sys	0m0.167s
+Size 50
+Threads 15
+Tolerance is 5.000000 
+Size of matrix 50 
+We are going to start the Jacobi-Iteration 
+X: 0 - 15. Y: 0 - 12. Z: 9 - 25
+Tolerance: 4.99/5.00. Iterations: 316/1500
+
+real	0m14.630s
+user	3m0.229s
+sys	0m0.076s
+Size 75
+Threads 15
+Tolerance is 5.000000 
+Size of matrix 75 
+We are going to start the Jacobi-Iteration 
+X: 0 - 23. Y: 0 - 18. Z: 13 - 37
+Tolerance: 4.99/5.00. Iterations: 568/1500
+
+real	1m41.124s
+user	21m37.792s
+sys	0m0.173s
+Size 50
+Threads 16
+Tolerance is 5.000000 
+Size of matrix 50 
+We are going to start the Jacobi-Iteration 
+X: 0 - 15. Y: 0 - 12. Z: 9 - 25
+Tolerance: 4.99/5.00. Iterations: 316/1500
+
+real	0m17.097s
+user	4m3.875s
+sys	0m0.091s
+Size 75
+Threads 16
+Tolerance is 5.000000 
+Size of matrix 75 
+We are going to start the Jacobi-Iteration 
+X: 0 - 23. Y: 0 - 18. Z: 13 - 37
+Tolerance: 4.99/5.00. Iterations: 568/1500
+
+real	1m47.249s
+user	25m29.593s
+sys	0m0.214s
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@n-62-21-96>
+Subject: Job 9103866: <NONAME> in cluster <dcc> Done
+
+Job <NONAME> was submitted from host <n-62-30-7> by user <s202382> in cluster <dcc> at Fri Jan 15 13:13:58 2021
+Job was executed on host(s) <24*n-62-21-96>, in queue <hpcintro>, as user <s202382> in cluster <dcc> at Fri Jan 15 13:21:52 2021
+</zhome/51/5/153768> was used as the home directory.
+</zhome/51/5/153768/analyses/Version2_scaling> was used as the working directory.
+Started at Fri Jan 15 13:21:52 2021
+Terminated at Fri Jan 15 13:44:55 2021
+Results reported at Fri Jan 15 13:44:55 2021
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpcintro 
+#BSUB -W 30
+#BSUB -n 24
+
+for ((i=1; i<=16; i++))
+do
+    for((j=50; j<100; j=j+25))
+    do
+	echo "Size" $j
+	echo "Threads" $i
+	time OMP_NUM_THREADS=$i  ./poisson_j_2 $j 1500 5 0 0 
+    done
+done
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   12202.61 sec.
+    Max Memory :                                 14 MB
+    Average Memory :                             11.67 MB
+    Total Requested Memory :                     24576.00 MB
+    Delta Memory :                               24562.00 MB
+    Max Swap :                                   -
+    Max Processes :                              4
+    Max Threads :                                20
+    Run time :                                   1383 sec.
+    Turnaround time :                            1857 sec.
+
+The output (if any) is above this job summary.
+

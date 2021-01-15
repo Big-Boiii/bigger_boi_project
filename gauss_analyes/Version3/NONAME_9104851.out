@@ -1,0 +1,372 @@
+Size 50
+Threads 1
+Tolerance is 5.000000 
+Size of matrix 50 
+We are going to start the Gauss-Seidel-Iteration 
+Tolerance: 4.98/5.00. Iterations: 310/1500
+
+real	0m0.281s
+user	0m0.265s
+sys	0m0.010s
+Size 125
+Threads 1
+Tolerance is 5.000000 
+Size of matrix 125 
+We are going to start the Gauss-Seidel-Iteration 
+Tolerance: 5.00/5.00. Iterations: 1297/1500
+
+real	0m16.277s
+user	0m16.253s
+sys	0m0.021s
+Size 50
+Threads 2
+Tolerance is 5.000000 
+Size of matrix 50 
+We are going to start the Gauss-Seidel-Iteration 
+Tolerance: 4.98/5.00. Iterations: 310/1500
+
+real	0m0.302s
+user	0m0.596s
+sys	0m0.002s
+Size 125
+Threads 2
+Tolerance is 5.000000 
+Size of matrix 125 
+We are going to start the Gauss-Seidel-Iteration 
+Tolerance: 5.00/5.00. Iterations: 1297/1500
+
+real	0m16.283s
+user	0m27.609s
+sys	0m0.022s
+Size 50
+Threads 3
+Tolerance is 5.000000 
+Size of matrix 50 
+We are going to start the Gauss-Seidel-Iteration 
+Tolerance: 4.98/5.00. Iterations: 310/1500
+
+real	0m0.279s
+user	0m0.825s
+sys	0m0.001s
+Size 125
+Threads 3
+Tolerance is 5.000000 
+Size of matrix 125 
+We are going to start the Gauss-Seidel-Iteration 
+Tolerance: 5.00/5.00. Iterations: 1297/1500
+
+real	0m16.577s
+user	0m38.757s
+sys	0m0.025s
+Size 50
+Threads 4
+Tolerance is 5.000000 
+Size of matrix 50 
+We are going to start the Gauss-Seidel-Iteration 
+Tolerance: 4.98/5.00. Iterations: 310/1500
+
+real	0m0.293s
+user	0m1.159s
+sys	0m0.001s
+Size 125
+Threads 4
+Tolerance is 5.000000 
+Size of matrix 125 
+We are going to start the Gauss-Seidel-Iteration 
+Tolerance: 5.00/5.00. Iterations: 1297/1500
+
+real	0m16.674s
+user	0m50.546s
+sys	0m0.035s
+Size 50
+Threads 5
+Tolerance is 5.000000 
+Size of matrix 50 
+We are going to start the Gauss-Seidel-Iteration 
+Tolerance: 4.98/5.00. Iterations: 310/1500
+
+real	0m0.301s
+user	0m1.483s
+sys	0m0.004s
+Size 125
+Threads 5
+Tolerance is 5.000000 
+Size of matrix 125 
+We are going to start the Gauss-Seidel-Iteration 
+Tolerance: 5.00/5.00. Iterations: 1297/1500
+
+real	0m15.807s
+user	0m58.011s
+sys	0m0.051s
+Size 50
+Threads 6
+Tolerance is 5.000000 
+Size of matrix 50 
+We are going to start the Gauss-Seidel-Iteration 
+Tolerance: 4.98/5.00. Iterations: 310/1500
+
+real	0m0.299s
+user	0m1.772s
+sys	0m0.002s
+Size 125
+Threads 6
+Tolerance is 5.000000 
+Size of matrix 125 
+We are going to start the Gauss-Seidel-Iteration 
+Tolerance: 5.00/5.00. Iterations: 1297/1500
+
+real	0m16.232s
+user	1m11.690s
+sys	0m0.049s
+Size 50
+Threads 7
+Tolerance is 5.000000 
+Size of matrix 50 
+We are going to start the Gauss-Seidel-Iteration 
+Tolerance: 4.98/5.00. Iterations: 310/1500
+
+real	0m0.292s
+user	0m2.019s
+sys	0m0.003s
+Size 125
+Threads 7
+Tolerance is 5.000000 
+Size of matrix 125 
+We are going to start the Gauss-Seidel-Iteration 
+Tolerance: 5.00/5.00. Iterations: 1297/1500
+
+real	0m16.708s
+user	1m23.353s
+sys	0m0.046s
+Size 50
+Threads 8
+Tolerance is 5.000000 
+Size of matrix 50 
+We are going to start the Gauss-Seidel-Iteration 
+Tolerance: 4.98/5.00. Iterations: 310/1500
+
+real	0m0.269s
+user	0m2.123s
+sys	0m0.002s
+Size 125
+Threads 8
+Tolerance is 5.000000 
+Size of matrix 125 
+We are going to start the Gauss-Seidel-Iteration 
+Tolerance: 5.00/5.00. Iterations: 1297/1500
+
+real	0m16.481s
+user	1m35.024s
+sys	0m0.058s
+Size 50
+Threads 9
+Tolerance is 5.000000 
+Size of matrix 50 
+We are going to start the Gauss-Seidel-Iteration 
+Tolerance: 4.98/5.00. Iterations: 310/1500
+
+real	0m0.277s
+user	0m2.451s
+sys	0m0.008s
+Size 125
+Threads 9
+Tolerance is 5.000000 
+Size of matrix 125 
+We are going to start the Gauss-Seidel-Iteration 
+Tolerance: 5.00/5.00. Iterations: 1297/1500
+
+real	0m16.848s
+user	1m45.699s
+sys	0m0.066s
+Size 50
+Threads 10
+Tolerance is 5.000000 
+Size of matrix 50 
+We are going to start the Gauss-Seidel-Iteration 
+Tolerance: 4.98/5.00. Iterations: 310/1500
+
+real	0m0.303s
+user	0m2.994s
+sys	0m0.003s
+Size 125
+Threads 10
+Tolerance is 5.000000 
+Size of matrix 125 
+We are going to start the Gauss-Seidel-Iteration 
+Tolerance: 5.00/5.00. Iterations: 1297/1500
+
+real	0m16.852s
+user	1m57.037s
+sys	0m0.089s
+Size 50
+Threads 11
+Tolerance is 5.000000 
+Size of matrix 50 
+We are going to start the Gauss-Seidel-Iteration 
+Tolerance: 4.98/5.00. Iterations: 310/1500
+
+real	0m0.303s
+user	0m3.292s
+sys	0m0.002s
+Size 125
+Threads 11
+Tolerance is 5.000000 
+Size of matrix 125 
+We are going to start the Gauss-Seidel-Iteration 
+Tolerance: 5.00/5.00. Iterations: 1297/1500
+
+real	0m15.793s
+user	2m1.569s
+sys	0m0.079s
+Size 50
+Threads 12
+Tolerance is 5.000000 
+Size of matrix 50 
+We are going to start the Gauss-Seidel-Iteration 
+Tolerance: 4.98/5.00. Iterations: 310/1500
+
+real	0m0.286s
+user	0m3.330s
+sys	0m0.001s
+Size 125
+Threads 12
+Tolerance is 5.000000 
+Size of matrix 125 
+We are going to start the Gauss-Seidel-Iteration 
+Tolerance: 5.00/5.00. Iterations: 1297/1500
+
+real	0m16.828s
+user	2m20.197s
+sys	0m0.053s
+Size 50
+Threads 13
+Tolerance is 5.000000 
+Size of matrix 50 
+We are going to start the Gauss-Seidel-Iteration 
+Tolerance: 4.98/5.00. Iterations: 310/1500
+
+real	0m0.311s
+user	0m3.985s
+sys	0m0.011s
+Size 125
+Threads 13
+Tolerance is 5.000000 
+Size of matrix 125 
+We are going to start the Gauss-Seidel-Iteration 
+Tolerance: 5.00/5.00. Iterations: 1297/1500
+
+real	0m15.904s
+user	2m25.360s
+sys	0m0.092s
+Size 50
+Threads 14
+Tolerance is 5.000000 
+Size of matrix 50 
+We are going to start the Gauss-Seidel-Iteration 
+Tolerance: 4.98/5.00. Iterations: 310/1500
+
+real	0m0.284s
+user	0m3.933s
+sys	0m0.001s
+Size 125
+Threads 14
+Tolerance is 5.000000 
+Size of matrix 125 
+We are going to start the Gauss-Seidel-Iteration 
+Tolerance: 5.00/5.00. Iterations: 1297/1500
+
+real	0m16.291s
+user	2m37.165s
+sys	0m0.072s
+Size 50
+Threads 15
+Tolerance is 5.000000 
+Size of matrix 50 
+We are going to start the Gauss-Seidel-Iteration 
+Tolerance: 4.98/5.00. Iterations: 310/1500
+
+real	0m0.306s
+user	0m4.505s
+sys	0m0.018s
+Size 125
+Threads 15
+Tolerance is 5.000000 
+Size of matrix 125 
+We are going to start the Gauss-Seidel-Iteration 
+Tolerance: 5.00/5.00. Iterations: 1297/1500
+
+real	0m15.806s
+user	2m42.831s
+sys	0m0.115s
+Size 50
+Threads 16
+Tolerance is 5.000000 
+Size of matrix 50 
+We are going to start the Gauss-Seidel-Iteration 
+Tolerance: 4.98/5.00. Iterations: 310/1500
+
+real	0m0.300s
+user	0m4.740s
+sys	0m0.001s
+Size 125
+Threads 16
+Tolerance is 5.000000 
+Size of matrix 125 
+We are going to start the Gauss-Seidel-Iteration 
+Tolerance: 5.00/5.00. Iterations: 1297/1500
+
+real	0m15.288s
+user	2m50.981s
+sys	0m0.095s
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@n-62-21-93>
+Subject: Job 9104851: <NONAME> in cluster <dcc> Done
+
+Job <NONAME> was submitted from host <n-62-30-6> by user <s202382> in cluster <dcc> at Fri Jan 15 15:59:51 2021
+Job was executed on host(s) <24*n-62-21-93>, in queue <hpcintro>, as user <s202382> in cluster <dcc> at Fri Jan 15 15:59:53 2021
+</zhome/51/5/153768> was used as the home directory.
+</zhome/51/5/153768/gauss_analyes/Version3> was used as the working directory.
+Started at Fri Jan 15 15:59:53 2021
+Terminated at Fri Jan 15 16:04:19 2021
+Results reported at Fri Jan 15 16:04:19 2021
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpcintro 
+#BSUB -W 30
+#BSUB -n 24 
+
+for ((i=1; i<=16; i++))
+do
+    for((j=50; j<=125; j=j+75))
+    do
+	echo "Size" $j
+	echo "Threads" $i
+	time  OMP_NUM_THREADS=$i ./poisson_gs_final $j 1500 5 0 0 
+    done
+done
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   1603.07 sec.
+    Max Memory :                                 34 MB
+    Average Memory :                             34.00 MB
+    Total Requested Memory :                     24576.00 MB
+    Delta Memory :                               24542.00 MB
+    Max Swap :                                   -
+    Max Processes :                              4
+    Max Threads :                                20
+    Run time :                                   266 sec.
+    Turnaround time :                            268 sec.
+
+The output (if any) is above this job summary.
+

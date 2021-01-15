@@ -1,0 +1,20 @@
+#!/bin/gnuplot
+
+set terminal png enhanced size 1000,600
+set output 'vcomp.png'
+
+#set multiplot layout 1,2 #title "Beautiful plots"
+
+set xlabel "Number of Threads"
+set xtics [1:16]
+set ytics [1:16]
+set ylabel "Scaling factor"
+set title "Compare Scaling"
+plot x with title "Optimal" with lp
+     "version2_data" using 1:2 title "version2"  with lp,\
+     "version3_data" using 1:2 title "version3" with lp,\
+     "version4_data" using 1:2 title "version4" with lp
+
+#pause mouse close
+# This last line is to avoid the terminal to close 
+# when you are not outputting to a file

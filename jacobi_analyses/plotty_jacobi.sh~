@@ -1,0 +1,28 @@
+#!/bin/gnuplot
+
+set terminal png enhanced size 1000,600
+set output 'jacobi_sizes.png'
+
+#set multiplot layout 1,2 #title "Beautiful plots"
+
+set xlabel "Size of Matrix (N)"
+set yrange [0:12000]
+set ytics 0, 2000
+set y2tics nomirror
+set y2range [0:1000]
+#set logscale x
+#set for [i=3:9] xtics(0,2**(2*i))
+set ylabel "Iterations needed"
+set y2label "Clocktime"
+set title "Iterations and Times for size N"
+plot "jacobi_data" using 1:2 axis x1y1 title "iterations"  with lp, "jacobi_data" using 1:3 axis x1y2 title "Clocktime" with lp
+
+#set ylabel"Secs"
+#set title "Runtime comparison"
+#plot "aos_output" using 1:5 title "Array of structures" with lp, "soa_output" using 1:5 title "Structure of arrays" with lp
+
+#unset multiplot
+
+#pause mouse close
+# This last line is to avoid the terminal to close 
+# when you are not outputting to a file
