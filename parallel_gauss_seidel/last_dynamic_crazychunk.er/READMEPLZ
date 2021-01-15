@@ -1,0 +1,8 @@
+1.  With the parallel declaration inside the while loop and atomic
+
+2.  Taking out the atomic, replace it by reduction
+
+3.  Taking the declaration outside the while loop to eliminate overhead. Using reduction.
+
+ALL versions have been initialized in parallel, so they all have the NUMA shit implemented. 
+REMEMBER TO RUN THIS WITH OMP_SCHEDULE=static,1 otherwise you will get incorrect results.
